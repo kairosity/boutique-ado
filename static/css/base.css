@@ -38,9 +38,9 @@ body {
     color: white;
 }
 
-.btn-outline-black{
+.btn-outline-black {
     background: white;
-    color: black !important;
+    color: black !important; /* use important to override link colors for <a> elements */
     border: 1px solid black;
 }
 
@@ -88,7 +88,7 @@ a.category-badge > span.badge:hover {
     color: #fff !important;
 }
 
-.btt-button{
+.btt-button {
     height: 42px;
     width: 42px;
     position: fixed;
@@ -98,8 +98,25 @@ a.category-badge > span.badge:hover {
 
 .btt-link,
 .update-link,
-.remove-item{
+.remove-item {
     cursor: pointer;
+}
+
+/* ------------------------------- bootstrap toasts */
+
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 99999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
 }
 
 /* -------------------------------- Media Queries */
