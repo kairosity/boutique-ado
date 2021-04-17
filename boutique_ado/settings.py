@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ '378d4d8cd6dd.ngrok.io', 'localhost', 'boutique-django-project' ]
+ALLOWED_HOSTS = [ '378d4d8cd6dd.ngrok.io', 'localhost', 'boutique-django-project', 'boutique-django-project.herokuapp.com' ]
 
 
 # Application definition
