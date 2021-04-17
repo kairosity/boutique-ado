@@ -1,0 +1,1 @@
+web: gunicorn boutique-django-project.wsgi:application
